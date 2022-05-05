@@ -27,7 +27,7 @@ public class ProductEventsHandler {
 		BeanUtils.copyProperties(event, product);
 		productRepository.save(product);
 		
-		throw new Exception("Exception Occured"); 
+		//throw new Exception("Exception Occured"); 
 	}
 	
 	@ExceptionHandler	
